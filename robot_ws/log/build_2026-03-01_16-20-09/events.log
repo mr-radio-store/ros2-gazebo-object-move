@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (my_robot_harmonic) JobQueued: {'identifier': 'my_robot_harmonic', 'dependencies': OrderedDict()}
+[0.000155] (my_robot_harmonic) JobStarted: {'identifier': 'my_robot_harmonic'}
+[0.099379] (-) TimerEvent: {}
+[0.200118] (-) TimerEvent: {}
+[0.301573] (-) TimerEvent: {}
+[0.402281] (-) TimerEvent: {}
+[0.504342] (-) TimerEvent: {}
+[0.606726] (-) TimerEvent: {}
+[0.708004] (-) TimerEvent: {}
+[0.808507] (-) TimerEvent: {}
+[0.912832] (-) TimerEvent: {}
+[1.013371] (-) TimerEvent: {}
+[1.114576] (-) TimerEvent: {}
+[1.215485] (-) TimerEvent: {}
+[1.317577] (-) TimerEvent: {}
+[1.418354] (-) TimerEvent: {}
+[1.520189] (-) TimerEvent: {}
+[1.622557] (-) TimerEvent: {}
+[1.723703] (-) TimerEvent: {}
+[1.825134] (-) TimerEvent: {}
+[1.926466] (-) TimerEvent: {}
+[2.028507] (-) TimerEvent: {}
+[2.130301] (-) TimerEvent: {}
+[2.232544] (-) TimerEvent: {}
+[2.333340] (-) TimerEvent: {}
+[2.433927] (-) TimerEvent: {}
+[2.535255] (-) TimerEvent: {}
+[2.637454] (-) TimerEvent: {}
+[2.738049] (-) TimerEvent: {}
+[2.838785] (-) TimerEvent: {}
+[2.939577] (-) TimerEvent: {}
+[3.040785] (-) TimerEvent: {}
+[3.142007] (-) TimerEvent: {}
+[3.242569] (-) TimerEvent: {}
+[3.343686] (-) TimerEvent: {}
+[3.445037] (-) TimerEvent: {}
+[3.547243] (-) TimerEvent: {}
+[3.648569] (-) TimerEvent: {}
+[3.750189] (-) TimerEvent: {}
+[3.851400] (-) TimerEvent: {}
+[3.952159] (-) TimerEvent: {}
+[4.053513] (-) TimerEvent: {}
+[4.155416] (-) TimerEvent: {}
+[4.257113] (-) TimerEvent: {}
+[4.358300] (-) TimerEvent: {}
+[4.458646] (-) TimerEvent: {}
+[4.559253] (-) TimerEvent: {}
+[4.660714] (-) TimerEvent: {}
+[4.762632] (-) TimerEvent: {}
+[4.863787] (-) TimerEvent: {}
+[4.964775] (-) TimerEvent: {}
+[5.065795] (-) TimerEvent: {}
+[5.167160] (-) TimerEvent: {}
+[5.268563] (-) TimerEvent: {}
+[5.369939] (-) TimerEvent: {}
+[5.470546] (-) TimerEvent: {}
+[5.572497] (-) TimerEvent: {}
+[5.674175] (-) TimerEvent: {}
+[5.775610] (-) TimerEvent: {}
+[5.876993] (-) TimerEvent: {}
+[5.977616] (-) TimerEvent: {}
+[6.079805] (-) TimerEvent: {}
+[6.182634] (-) TimerEvent: {}
+[6.284195] (-) TimerEvent: {}
+[6.385028] (-) TimerEvent: {}
+[6.486307] (-) TimerEvent: {}
+[6.586992] (-) TimerEvent: {}
+[6.687704] (-) TimerEvent: {}
+[6.788844] (-) TimerEvent: {}
+[6.889776] (-) TimerEvent: {}
+[6.990179] (-) TimerEvent: {}
+[7.091240] (-) TimerEvent: {}
+[7.192489] (-) TimerEvent: {}
+[7.295471] (-) TimerEvent: {}
+[7.396796] (-) TimerEvent: {}
+[7.497932] (-) TimerEvent: {}
+[7.600807] (-) TimerEvent: {}
+[7.702884] (-) TimerEvent: {}
+[7.804052] (-) TimerEvent: {}
+[7.905410] (-) TimerEvent: {}
+[8.006451] (-) TimerEvent: {}
+[8.108005] (-) TimerEvent: {}
+[8.209603] (-) TimerEvent: {}
+[8.311331] (-) TimerEvent: {}
+[8.414102] (-) TimerEvent: {}
+[8.515526] (-) TimerEvent: {}
+[8.616576] (-) TimerEvent: {}
+[8.717492] (-) TimerEvent: {}
+[8.818237] (-) TimerEvent: {}
+[8.919127] (-) TimerEvent: {}
+[9.019581] (-) TimerEvent: {}
+[9.120063] (-) TimerEvent: {}
+[9.220800] (-) TimerEvent: {}
+[9.322303] (-) TimerEvent: {}
+[9.423318] (-) TimerEvent: {}
+[9.524188] (-) TimerEvent: {}
+[9.625364] (-) TimerEvent: {}
+[9.726167] (-) TimerEvent: {}
+[9.826989] (-) TimerEvent: {}
+[9.928130] (-) TimerEvent: {}
+[10.029215] (-) TimerEvent: {}
+[10.129896] (-) TimerEvent: {}
+[10.231089] (-) TimerEvent: {}
+[10.332795] (-) TimerEvent: {}
+[10.434168] (-) TimerEvent: {}
+[10.535110] (-) TimerEvent: {}
+[10.635810] (-) TimerEvent: {}
+[10.736509] (-) TimerEvent: {}
+[10.837535] (-) TimerEvent: {}
+[10.938816] (-) TimerEvent: {}
+[11.040580] (-) TimerEvent: {}
+[11.140965] (-) TimerEvent: {}
+[11.241663] (-) TimerEvent: {}
+[11.342355] (-) TimerEvent: {}
+[11.443474] (-) TimerEvent: {}
+[11.544612] (-) TimerEvent: {}
+[11.646071] (-) TimerEvent: {}
+[11.747809] (-) TimerEvent: {}
+[11.848902] (-) TimerEvent: {}
+[11.950517] (-) TimerEvent: {}
+[12.051435] (-) TimerEvent: {}
+[12.153091] (-) TimerEvent: {}
+[12.254120] (-) TimerEvent: {}
+[12.356048] (-) TimerEvent: {}
+[12.457113] (-) TimerEvent: {}
+[12.558379] (-) TimerEvent: {}
+[12.659447] (-) TimerEvent: {}
+[12.760250] (-) TimerEvent: {}
+[12.860919] (-) TimerEvent: {}
+[12.961697] (-) TimerEvent: {}
+[13.062597] (-) TimerEvent: {}
+[13.163555] (-) TimerEvent: {}
+[13.264916] (-) TimerEvent: {}
+[13.365778] (-) TimerEvent: {}
+[13.466242] (-) TimerEvent: {}
+[13.567454] (-) TimerEvent: {}
+[13.668456] (-) TimerEvent: {}
+[13.769838] (-) TimerEvent: {}
+[13.871173] (-) TimerEvent: {}
+[13.971932] (-) TimerEvent: {}
+[14.073450] (-) TimerEvent: {}
+[14.174916] (-) TimerEvent: {}
+[14.277064] (-) TimerEvent: {}
+[14.379597] (-) TimerEvent: {}
+[14.480851] (-) TimerEvent: {}
+[14.582360] (-) TimerEvent: {}
+[14.683848] (-) TimerEvent: {}
+[14.785073] (-) TimerEvent: {}
+[14.885854] (-) TimerEvent: {}
+[14.986426] (-) TimerEvent: {}
+[15.086926] (-) TimerEvent: {}
+[15.188055] (-) TimerEvent: {}
+[15.288789] (-) TimerEvent: {}
+[15.389553] (-) TimerEvent: {}
+[15.492883] (-) TimerEvent: {}
+[15.594310] (-) TimerEvent: {}
+[15.697171] (-) TimerEvent: {}
+[15.798998] (-) TimerEvent: {}
+[15.900201] (-) TimerEvent: {}
+[16.001332] (-) TimerEvent: {}
+[16.102446] (-) TimerEvent: {}
+[16.203716] (-) TimerEvent: {}
+[16.305648] (-) TimerEvent: {}
+[16.406808] (-) TimerEvent: {}
+[16.507342] (-) TimerEvent: {}
+[16.607679] (-) TimerEvent: {}
+[16.708161] (-) TimerEvent: {}
+[16.808775] (-) TimerEvent: {}
+[16.912697] (-) TimerEvent: {}
+[17.013678] (-) TimerEvent: {}
+[17.114736] (-) TimerEvent: {}
+[17.215544] (-) TimerEvent: {}
+[17.316995] (-) TimerEvent: {}
+[17.417327] (-) TimerEvent: {}
+[17.519616] (-) TimerEvent: {}
+[17.620703] (-) TimerEvent: {}
+[17.647459] (my_robot_harmonic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/build', '--no-deps', 'symlink_data'], 'cwd': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'unicycle', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/unicycle', 'OLDPWD': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/src/my_robot_harmonic/resource', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2488', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'unicycle', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/lib/x86_64-linux-gnu/pkgconfig:', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'unicycle', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/unicycle-VMware-Virtual-Platform:@/tmp/.ICE-unix/2330,unix/unicycle-VMware-Virtual-Platform:/tmp/.ICE-unix/2330', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ebacd816_fd65_4a76_aafd_9791fee16560', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WELWL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[17.721805] (-) TimerEvent: {}
+[17.824139] (-) TimerEvent: {}
+[17.926934] (-) TimerEvent: {}
+[18.028737] (-) TimerEvent: {}
+[18.117632] (my_robot_harmonic) StdoutLine: {'line': b'running develop\n'}
+[18.129000] (-) TimerEvent: {}
+[18.232110] (-) TimerEvent: {}
+[18.335655] (-) TimerEvent: {}
+[18.374261] (my_robot_harmonic) StdoutLine: {'line': b'running egg_info\n'}
+[18.395053] (my_robot_harmonic) StdoutLine: {'line': b'writing my_robot_harmonic.egg-info/PKG-INFO\n'}
+[18.395729] (my_robot_harmonic) StdoutLine: {'line': b'writing dependency_links to my_robot_harmonic.egg-info/dependency_links.txt\n'}
+[18.396367] (my_robot_harmonic) StdoutLine: {'line': b'writing entry points to my_robot_harmonic.egg-info/entry_points.txt\n'}
+[18.396790] (my_robot_harmonic) StdoutLine: {'line': b'writing requirements to my_robot_harmonic.egg-info/requires.txt\n'}
+[18.397497] (my_robot_harmonic) StdoutLine: {'line': b'writing top-level names to my_robot_harmonic.egg-info/top_level.txt\n'}
+[18.435938] (-) TimerEvent: {}
+[18.437519] (my_robot_harmonic) StdoutLine: {'line': b"reading manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'\n"}
+[18.455003] (my_robot_harmonic) StdoutLine: {'line': b"writing manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'\n"}
+[18.477706] (my_robot_harmonic) StdoutLine: {'line': b'running build_ext\n'}
+[18.478091] (my_robot_harmonic) StdoutLine: {'line': b'Creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages/my-robot-harmonic.egg-link (link to .)\n'}
+[18.479218] (my_robot_harmonic) StdoutLine: {'line': b'Installing teleop_harmonic script to /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/my_robot_harmonic\n'}
+[18.479705] (my_robot_harmonic) StdoutLine: {'line': b'\n'}
+[18.479851] (my_robot_harmonic) StdoutLine: {'line': b'Installed /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic\n'}
+[18.480071] (my_robot_harmonic) StdoutLine: {'line': b'running symlink_data\n'}
+[18.530699] (my_robot_harmonic) CommandEnded: {'returncode': 0}
+[18.536598] (-) TimerEvent: {}
+[18.637421] (-) TimerEvent: {}
+[18.685892] (my_robot_harmonic) JobEnded: {'identifier': 'my_robot_harmonic', 'rc': 0}
+[18.686799] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating my_robot_harmonic.egg-info
+writing my_robot_harmonic.egg-info/PKG-INFO
+writing dependency_links to my_robot_harmonic.egg-info/dependency_links.txt
+writing entry points to my_robot_harmonic.egg-info/entry_points.txt
+writing requirements to my_robot_harmonic.egg-info/requires.txt
+writing top-level names to my_robot_harmonic.egg-info/top_level.txt
+writing manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+reading manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+writing manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages/my-robot-harmonic.egg-link (link to .)
+Installing teleop_harmonic script to /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/my_robot_harmonic
+
+Installed /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic
+running symlink_data
+creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/launch
+symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/launch/simulation_harmonic.launch.py -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/launch
+symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/package.xml -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic
+creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/urdf
+symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/urdf/robot.urdf.xacro -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/urdf
+symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/urdf/robot.urdf -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/urdf
+creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/config
+symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/config/controllers.yaml -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/config
+creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/worlds
+symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/worlds/empty.world -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/worlds
+creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/resource

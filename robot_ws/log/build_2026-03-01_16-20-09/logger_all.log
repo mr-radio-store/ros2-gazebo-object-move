@@ -1,0 +1,132 @@
+[4.107s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'my_robot_harmonic', '--symlink-install']
+[4.107s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['my_robot_harmonic'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75461116e120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75461116dfd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75461116dfd0>>)
+[6.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.325s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws'
+[6.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.586s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.650s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extensions ['ignore', 'ignore_ament_install']
+[6.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extension 'ignore'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extension 'ignore_ament_install'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extensions ['colcon_pkg']
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extension 'colcon_pkg'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extensions ['colcon_meta']
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extension 'colcon_meta'
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extensions ['ros']
+[6.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_harmonic) by extension 'ros'
+[6.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_harmonic' with type 'ros.ament_python' and name 'my_robot_harmonic'
+[6.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install
+[7.515s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 385 installed packages in /opt/ros/jazzy
+[7.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.673s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'cmake_args' from command line to 'None'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'cmake_target' from command line to 'None'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'cmake_clean_cache' from command line to 'False'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'cmake_clean_first' from command line to 'False'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'cmake_force_configure' from command line to 'False'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'ament_cmake_args' from command line to 'None'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'catkin_cmake_args' from command line to 'None'
+[7.674s] Level 5:colcon.colcon_core.verb:set package 'my_robot_harmonic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.674s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_harmonic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic', 'merge_install': False, 'path': '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/src/my_robot_harmonic', 'symlink_install': True, 'test_result_base': None}
+[7.674s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.674s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.675s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/src/my_robot_harmonic' with build type 'ament_python'
+[7.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_harmonic', 'ament_prefix_path')
+[7.825s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/hook/ament_prefix_path.ps1'
+[7.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/hook/ament_prefix_path.dsv'
+[7.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/hook/ament_prefix_path.sh'
+[7.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.773s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_robot_harmonic' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[8.774s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/src/my_robot_harmonic'
+[8.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/build --no-deps symlink_data
+[26.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_harmonic', 'pythonpath_develop')
+[26.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/share/my_robot_harmonic/hook/pythonpath_develop.ps1'
+[26.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/build --no-deps symlink_data
+[26.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/share/my_robot_harmonic/hook/pythonpath_develop.dsv'
+[26.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/share/my_robot_harmonic/hook/pythonpath_develop.sh'
+[26.312s] Level 1:colcon.colcon_core.environment:checking '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic' for CMake module files
+[26.314s] Level 1:colcon.colcon_core.environment:checking '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic' for CMake config files
+[26.329s] Level 1:colcon.colcon_core.environment:checking '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib'
+[26.330s] Level 1:colcon.colcon_core.environment:checking '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/bin'
+[26.330s] Level 1:colcon.colcon_core.environment:checking '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/pkgconfig/my_robot_harmonic.pc'
+[26.330s] Level 1:colcon.colcon_core.environment:checking '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages'
+[26.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_harmonic', 'pythonpath')
+[26.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/hook/pythonpath.ps1'
+[26.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/hook/pythonpath.dsv'
+[26.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/hook/pythonpath.sh'
+[26.332s] Level 1:colcon.colcon_core.environment:checking '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/bin'
+[26.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_harmonic)
+[26.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/package.ps1'
+[26.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/package.dsv'
+[26.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/package.sh'
+[26.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/package.bash'
+[26.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/package.zsh'
+[26.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/colcon-core/packages/my_robot_harmonic)
+[26.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.362s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.434s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.434s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.434s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.697s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.697s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/local_setup.ps1'
+[27.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/_local_setup_util_ps1.py'
+[27.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/setup.ps1'
+[27.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/local_setup.sh'
+[27.850s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/_local_setup_util_sh.py'
+[27.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/setup.sh'
+[27.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/local_setup.bash'
+[27.873s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/setup.bash'
+[27.874s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/local_setup.zsh'
+[27.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/setup.zsh'

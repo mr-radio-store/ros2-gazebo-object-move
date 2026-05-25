@@ -1,0 +1,18 @@
+[0.845s] Invoking command in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/build --no-deps symlink_data
+[1.156s] running develop
+[1.354s] running egg_info
+[1.377s] writing my_robot_harmonic.egg-info/PKG-INFO
+[1.378s] writing dependency_links to my_robot_harmonic.egg-info/dependency_links.txt
+[1.378s] writing entry points to my_robot_harmonic.egg-info/entry_points.txt
+[1.379s] writing requirements to my_robot_harmonic.egg-info/requires.txt
+[1.379s] writing top-level names to my_robot_harmonic.egg-info/top_level.txt
+[1.424s] reading manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+[1.425s] writing manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+[1.453s] running build_ext
+[1.453s] Creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages/my-robot-harmonic.egg-link (link to .)
+[1.454s] Installing teleop_harmonic script to /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/my_robot_harmonic
+[1.454s] 
+[1.455s] Installed /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic
+[1.455s] running symlink_data
+[1.455s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/launch/simulation_direct.launch.py -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/launch
+[1.494s] Invoked command in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/build --no-deps symlink_data

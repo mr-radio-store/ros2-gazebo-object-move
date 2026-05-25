@@ -1,0 +1,2 @@
+[console_scripts]
+teleop_harmonic = my_robot_harmonic.teleop_harmonic:main

@@ -1,0 +1,176 @@
+# Controller manager configuration
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    
+    # Joint state controller
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    
+    # Example: Diff drive controller (for wheeled robots)
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+    
+    # Example: Joint trajectory controller (for robotic arms)
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    
+    # Example: Position controllers (for individual joints)
+    position_controllers:
+      type: position_controllers/PositionController
+    
+    # Example: Velocity controllers
+    velocity_controllers:
+      type: velocity_controllers/VelocityController
+    
+    # Example: Effort controllers
+    effort_controllers:
+      type: effort_controllers/EffortController
+
+# Differential drive controller configuration
+diff_drive_controller:
+  ros__parameters:
+    # Wheel configuration
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+    
+    # Robot parameters
+    wheel_separation: 0.4  # Distance between wheels (meters)
+    wheels_per_side: 1      # Number of wheels per side
+    
+    # Wheel radius
+    wheel_radius: 0.1       # Wheel radius (meters)
+    
+    # Odometry configuration
+    wheel_separation_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+    
+    # Odometry covariances
+    pose_covariance_diagonal: [0.001, 0.001, 0.001, 0.001, 0.001, 0.01]
+    twist_covariance_diagonal: [0.001, 0.001, 0.001, 0.001, 0.001, 0.01]
+    
+    # Command limits
+    linear:
+      x:
+        has_velocity_limits: true
+        max_velocity: 1.0    # m/s
+        has_acceleration_limits: true
+        max_acceleration: 2.0 # m/s^2
+    angular:
+      z:
+        has_velocity_limits: true
+        max_velocity: 3.14    # rad/s (~180 deg/s)
+        has_acceleration_limits: true
+        max_acceleration: 6.28 # rad/s^2
+    
+    # Publish rate
+    publish_rate: 50.0
+    
+    # Odometry frame
+    odom_frame_id: "odom"
+    base_frame_id: "base_link"
+    
+    # Enable odometry timestamp
+    enable_odom_tf: true
+
+# Joint trajectory controller configuration
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+      - joint3
+      - joint4
+      - joint5
+      - joint6
+    
+    command_interfaces:
+      - position
+      - velocity
+    
+    state_interfaces:
+      - position
+      - velocity
+    
+    # Constraints
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.5
+    
+    # Gains
+    gains:
+      joint1: {p: 1000, i: 0, d: 10, i_clamp: 0}
+      joint2: {p: 1000, i: 0, d: 10, i_clamp: 0}
+      joint3: {p: 1000, i: 0, d: 10, i_clamp: 0}
+      joint4: {p: 1000, i: 0, d: 10, i_clamp: 0}
+      joint5: {p: 1000, i: 0, d: 10, i_clamp: 0}
+      joint6: {p: 1000, i: 0, d: 10, i_clamp: 0}
+
+# Position controllers for individual joints
+position_controllers:
+  ros__parameters:
+    joints:
+      - joint1
+      - joint2
+      - joint3
+    
+    # Interface type (position, velocity, or effort)
+    interface_name: position
+    
+    # Gains
+    gains:
+      joint1: {p: 100, i: 0, d: 0}
+      joint2: {p: 100, i: 0, d: 0}
+      joint3: {p: 100, i: 0, d: 0}
+
+# Velocity controllers for individual joints
+velocity_controllers:
+  ros__parameters:
+    joints:
+      - wheel_left_joint
+      - wheel_right_joint
+    
+    # Interface type
+    interface_name: velocity
+    
+    # Gains
+    gains:
+      wheel_left_joint: {p: 10, i: 1, d: 0}
+      wheel_right_joint: {p: 10, i: 1, d: 0}
+
+# Effort controllers for individual joints
+effort_controllers:
+  ros__parameters:
+    joints:
+      - gripper_left_joint
+      - gripper_right_joint
+    
+    # Interface type
+    interface_name: effort
+    
+    # Gains
+    gains:
+      gripper_left_joint: {p: 50, i: 0, d: 0}
+      gripper_right_joint: {p: 50, i: 0, d: 0}
+
+# Gripper controller example
+gripper_controller:
+  ros__parameters:
+    joint: gripper_finger_joint
+    allow_stalling: false
+    max_effort: 10.0
+
+# Simple joint position controller
+simple_position_controller:
+  ros__parameters:
+    joints:
+      - arm_joint1
+      - arm_joint2
+    
+    # Control parameters
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

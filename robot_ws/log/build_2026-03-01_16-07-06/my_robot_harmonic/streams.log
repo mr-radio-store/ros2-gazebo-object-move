@@ -1,0 +1,31 @@
+[0.763s] Invoking command in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/build --no-deps symlink_data
+[1.065s] running develop
+[1.251s] running egg_info
+[1.251s] creating my_robot_harmonic.egg-info
+[1.270s] writing my_robot_harmonic.egg-info/PKG-INFO
+[1.271s] writing dependency_links to my_robot_harmonic.egg-info/dependency_links.txt
+[1.271s] writing entry points to my_robot_harmonic.egg-info/entry_points.txt
+[1.271s] writing requirements to my_robot_harmonic.egg-info/requires.txt
+[1.271s] writing top-level names to my_robot_harmonic.egg-info/top_level.txt
+[1.271s] writing manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+[1.312s] reading manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+[1.313s] writing manifest file 'my_robot_harmonic.egg-info/SOURCES.txt'
+[1.336s] running build_ext
+[1.336s] Creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages/my-robot-harmonic.egg-link (link to .)
+[1.336s] Installing teleop_harmonic script to /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/my_robot_harmonic
+[1.337s] 
+[1.337s] Installed /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic
+[1.337s] running symlink_data
+[1.337s] creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/launch
+[1.337s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/launch/simulation_harmonic.launch.py -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/launch
+[1.338s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/package.xml -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic
+[1.338s] creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/urdf
+[1.338s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/urdf/robot.urdf.xacro -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/urdf
+[1.338s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/urdf/robot.urdf -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/urdf
+[1.338s] creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/config
+[1.338s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/config/controllers.yaml -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/config
+[1.338s] creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/worlds
+[1.338s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/worlds/empty.world -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/worlds
+[1.338s] creating /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/resource
+[1.338s] symbolically linking /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/resource/my_robot_harmonic -> /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/share/my_robot_harmonic/resource
+[1.370s] Invoked command in '/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/install/my_robot_harmonic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/unicycle/Desktop/ROS2_Gazebo_Obj_Move/robot_ws/build/my_robot_harmonic/build --no-deps symlink_data

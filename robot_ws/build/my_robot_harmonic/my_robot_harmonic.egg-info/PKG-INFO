@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-robot-harmonic
+Version: 0.0.1
+Summary: ROS 2 Harmonic robot package for Gazebo simulation
+Maintainer: unicycle
+Maintainer-email: unicycle@example.com
+License: Apache License 2.0
